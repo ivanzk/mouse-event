@@ -1,0 +1,24 @@
+{
+  "buttons": [
+    "ctrlKey",
+    "shiftKey",
+    "altKey",
+    "metaKey",
+    "button",
+    "buttons",
+    "detail",
+    "which"
+  ],
+  "positions": [
+    "screenX",
+    "screenY",
+    "clientX",
+    "clientY",
+    "pageX",
+    "pageY",
+    "offsetX",
+    "offsetY",
+    "layerX",
+    "layerY"
+  ]
+}

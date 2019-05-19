@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Description"
+      content="Test the mouse event - mousedown. Test which key or key combination was pressed."
+    />
+    <title>Mouse Event</title>
+  </head>
+  <body>
+    <div class="root">
+      <div>
+        <h1>Mouse Event - mousedown</h1>
+        <p class="margin-bottom-l">
+          Press any mouse key when the cursor is inside the box
+        </p>
+      </div>
+      <div class="container">
+        <div class="mouse-box" data-js="mouse-box"></div>
+        <div class="event-content hidden" data-js="event-content">
+          <div class="container">
+            <h2 class="item-100 margin-top-0">Event Properties</h2>
+            <table class="properties-table">
+              <thead>
+                <tr>
+                  <th>Property</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody data-js="event-props-buttons"></tbody>
+            </table>
+            <table class="properties-table">
+              <thead>
+                <tr>
+                  <th>Property</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody data-js="event-props-positions"></tbody>
+            </table>
+          </div>
+          <hr />
+          <div>
+            <h2>immensity.js - handleMouseEvent</h2>
+            <div class="immensity-output" data-js="immensity-mouse-event"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
